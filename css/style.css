@@ -6,7 +6,7 @@
 
 header {
     width: calc(100% - 40px);
-    height: 100px;
+    height: 150px;
     background-color: yellow;
     margin-left: 20px;
     margin-right: 20px;
@@ -17,30 +17,32 @@ header {
 main {
     content: "";
     display: table;
-    clear: none;
+    clear: both;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box1 {
-    width: calc(25% - 20px);
+    width: 25%;
     height: 300px;
-    margin-left: 20px;
-    float: left;
+    float: left; 
     background-color: violet;
 }
 
 .box2 {
-    width: calc(50% - 20px);
+    width: calc(50% - 40px);
     height: 400px;
     margin-left: 20px;
+    margin-right: 20px;
     float: left;
     background-color: blueviolet;
 }
 
-.contenitore {
-    width: calc(25% - 20px);
+.container {
+    width: 25%;
     height: 420px;
     position: relative;
-    margin-left: 20px;
     float: left;
     background-color: transparent;
 }
@@ -60,12 +62,14 @@ main {
     position: absolute;
     top: 220px;
     left: 0;
-    float: left;
     background-color: violet;
 }
 
 footer {
-    width: 100%;
-    height: 50px;
+    width: calc(100%-40px);
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: skyblue;
 }
